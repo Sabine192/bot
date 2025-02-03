@@ -18,8 +18,8 @@ driver = webdriver.Chrome(service=service)
 driver.maximize_window()
 
 # De product URL en het maximum prijs
-product_url = "https://www.bol.com/nl/nl/p/pokemon-boosterpack-scarlet-violet-booster-1-pakje-10-kaarten-tcg/9300000146583670/?bltgh=gGDvtPZyIjDvFm9V0MVAww.4_25.29.ProductTitle"
-max_price = 20  # Nieuwe prijslimiet
+product_url = "https://www.bol.com/nl/nl/p/pokemon-scarlet-violet-sv08-5-prismatic-evolutions-elite-trainer-box-pokemon-kaarten-trading-cards/9300000195656947/"
+max_price = 60  # Nieuwe prijslimiet
 desired_quantity = 4
 
 # Ga naar de productpagina
